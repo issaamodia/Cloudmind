@@ -7,7 +7,7 @@ const storedThoughts = JSON.parse(localStorage.getItem('thoughts')) || [];
 storedThoughts.forEach((thought) => {
   const listItem = document.createElement('li');
   const thoughtIcon = document.createElement('img');
-  thoughtIcon.src = 'path/to/icon.png';
+  thoughtIcon.src = 'anonnymousIcon.png';
   const thoughtText = document.createElement('div');
   thoughtText.textContent = thought.text;
   const replyList = document.createElement('ul');
@@ -43,7 +43,7 @@ submitButton.addEventListener('click', function() {
   };
   const listItem = document.createElement('li');
   const thoughtIcon = document.createElement('img');
-  thoughtIcon.src = 'path/to/icon.png';
+  thoughtIcon.src = 'anonnymousIcon.png';
   const thoughtTextElem = document.createElement('div');
   thoughtTextElem.textContent = thoughtText;
   const replyList = document.createElement('ul');
